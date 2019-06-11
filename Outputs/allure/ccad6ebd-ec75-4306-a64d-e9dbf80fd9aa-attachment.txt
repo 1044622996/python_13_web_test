@@ -1,0 +1,3 @@
+My_log.py                   52 ERROR    延时等待超时
+My_log.py                   52 ERROR    点击抢投标失败
+My_log.py                   52 ERROR    截图失败

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开始学习HTML</title>  <!-- 页面顶部标题-->
+</head>
+<body>    <!-- 页面背景色  bgcolor="blue" -->
+<!-- onclick 鼠标事件的监听  输入 on 了解-->
+<h1 id="title" onclick="red(this)"   align="center">我的第一个标题</h1>   <!-- 文本标题 h1- 定义最大标题  --H6   定义最小标题-->
+<h2 style="background-color:red">我的第二个标题</h2>
+<p>我的第一个段落</p>  <!-- 段落-->
+<p style="font-family:arial;color:red;font-size:40px;">我的第二个段落</p>
+<p>1<br/>
+    2<br/>
+    3</p>
+<ul>  <!-- 列表-->
+    <li>军
+        <ul>
+            <li>名字</li>
+            <li>年龄</li>
+        </ul>
+    </li>
+</ul>
+
+<ol>
+    <li>名字</li>
+</ol>
+<table>  <!-- 表格-->
+    <tr>
+        <th>名字</th>  <!-- 表头-->
+        <th>年龄</th>
+    </tr>
+    <tr>
+        <td>jun</td>  <!-- 内容-->
+        <td>13</td>
+    </tr>
+</table>
+<!--<a href="http://www.baidu.com" target="_blank">This is a link</a>  &lt;!&ndash; 链接 打开新页面&ndash;&gt;-->
+<a href="http://www.baidu.com" target="_blank">
+    <img src="http://t8.baidu.com/it/u=3660968530,985748925&amp;fm=191&amp;app=48&amp;wm=1,17,90,45,20,7&amp;wmo=0,0&amp;n=0&amp;g=0n&amp;f=JPEG?sec=1853310920&amp;t=9b4f100f0eedfe853fad24a58a4e1ad7"
+         width="144" height="142"/>  <!-- 图像-->
+</a>
+<form action="" method="">  <!-- 服务器地址-->
+    <iframe src="http://www.baidu.com"></iframe>  <!-- 嵌套页面 -->
+    <input type="text" name="text" placeholder="提示">百度一下  <!-- sype 了解 多种情况 单行文本 -->
+    <input type="file">   <!-- 上传文件 -->
+
+    <div>性别：
+
+        <input type="radio" name="gender" value="nan">男    <!-- 单选 -->
+        <input type="radio" name="gender" value="nv" checked>女
+    </div>
+    <div>姓名：
+        <input type="checkbox" name="name">a    <!-- 多选 -->
+        <input type="checkbox" name="name">b
+    </div>
+    <textarea>fff</textarea>   <!-- 多行文本 -->
+    <select name="age">  <!-- 下拉选择-->
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    <input type="submit">
+</form>
+<script>
+    function run(a)
+    {
+        if (a > 13)
+        {
+            return a -1;
+        }
+        else if(a == 13)
+        {
+            return a;
+        }
+        else
+        {
+            return a +1;
+        }
+    }
+    console.log(run(11));
+    function red(e)
+    {
+        e.style.color = 'red';
+    }
+    document.onload = funtio n()
+    {
+        window.alert('sunny');
+    }
+
+</script>
+</body>
+</html>

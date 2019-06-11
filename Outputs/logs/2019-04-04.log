@@ -1,0 +1,23 @@
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s)
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s
+%(asctime)s-%(levelname)s-%(lineno)d-%(filename)s-%(name)s-[日志信息]-%(message)s
+2019-04-04 15:48:37,052-DEBUG-39-My_log.py-python13-[日志信息]-这是debug信息
+2019-04-04 15:48:37,053-INFO-40-My_log.py-python13-[日志信息]-这是dinfo信息
+2019-04-04 15:48:37,054-WARNING-41-My_log.py-python13-[日志信息]-这是warning信息
+2019-04-04 15:48:37,054-ERROR-42-My_log.py-python13-[日志信息]-这是error信息
+2019-04-04 15:48:37,055-CRITICAL-43-My_log.py-python13-[日志信息]-这是critical信息
+2019-04-04 15:52:40,004-ERROR-49-My_log.py-python13-[日志信息]-错误
+2019-04-04 15:58:05,395-DEBUG-40-My_log.py-python13-[日志信息]-我是debug
+2019-04-04 17:21:03,593-ERROR-52-My_log.py-python13-[日志信息]-我是debug

@@ -1,0 +1,4 @@
+My_log.py                   46 INFO     点击抢投标成功
+My_log.py                   46 INFO     输入金额成功
+My_log.py                   46 INFO     点击投标成功
+My_log.py                   52 ERROR    延时等待超时
