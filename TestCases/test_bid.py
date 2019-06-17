@@ -19,7 +19,7 @@ from Common.basepage import BasePage
 
 mylog = MyLog('投资日志')
 
-@pytest.mark.all
+@pytest.mark.all1
 # @ddt
 class TestBid:
 
